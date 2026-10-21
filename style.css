@@ -1,0 +1,33 @@
+body {
+    background-color: #EE4FF0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BE3AB5 ;
+    border-radius: 100px;
+    height: 55px
+}
+
+header p{
+    display: inline;
+    font-weight: bold;
+    font-size: 23px ;
+    color: #FFFFFF;
+    -webkit-text-stroke: 5px #6B2F71;
+    paint-order: stroke fill;
+}
+
+header div{
+    display: flex;
+    gap: 70px;
+    margin-right: 10px;
+}
+
+#main {
+    width: 746px;
+    padding-top: 24px;
+    
+}
