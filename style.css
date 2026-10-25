@@ -30,8 +30,7 @@ header div{
 
 #main {
     width: 746px;
-    margin-top: 40px;
-    margin-left: 578px;
+    margin: 0 auto;
     text-align: center;
     font-size: 35px;
     font-weight: bold;
@@ -69,7 +68,5 @@ header div{
 }
 
 footer {
-    background-color: #DC2AE5;
-    height: 41px;
-    margin-top: 21px;
+    color
 }
