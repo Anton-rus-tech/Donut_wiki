@@ -8,13 +8,14 @@ header {
     justify-content: space-between;
     background-color: #BE3AB5 ;
     border-radius: 100px;
-    height: 55px
+    height: 55px;
+    margin-top: 25px;
 }
 
 header p{
     display: inline;
     font-weight: bold;
-    font-size: 23px ;
+    font-size: 30px ;
     color: #FFFFFF;
     -webkit-text-stroke: 5px #6B2F71;
     paint-order: stroke fill;
@@ -24,10 +25,51 @@ header div{
     display: flex;
     gap: 70px;
     margin-right: 10px;
+    
 }
 
 #main {
     width: 746px;
-    padding-top: 24px;
-    
+    margin-top: 40px;
+    margin-left: 578px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    -webkit-text-stroke: 5px #6B2F71;
+    paint-order: stroke fill;
+
+}
+#main p{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px
+}
+
+#paths {
+    display: flex;
+    justify-content: space-between;
+}
+
+.path {
+    background-color: #B73FC2;
+    border-radius: 15px;
+    border: solid #6B2F71 15px;
+}
+
+.path p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    -webkit-text-stroke: 5px #6B2F71;
+    paint-order: stroke fill;
+}
+
+footer {
+    background-color: #DC2AE5;
+    height: 41px;
+    margin-top: 21px;
 }
